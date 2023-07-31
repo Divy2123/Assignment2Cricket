@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.controller.PlayerDetailController">
+    <ImageView fx:id="playerPosterImageView" fitWidth="200" fitHeight="300" />
+    <Label text="Player Name: " /><Label fx:id="playerNameLabel" />
+    <Label text="Country: " /><Label fx:id="countryLabel" />
+    <Label text="Batting Average: " /><Label fx:id="battingAverageLabel" />
+    <Label text="Bowling Average: " /><Label fx:id="bowlingAverageLabel" />
+</VBox>

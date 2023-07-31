@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.myapp.controller.MainController">
+    <VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+        <Button fx:id="apiCallButton" text="Fetch Player Stats" onAction="#onApi" />
+        <ListView fx:id="playerListView"/>
+        <Button fx:id="backButton" text="Back" onAction="#onBackButtonClick" />
+    </VBox>
+</AnchorPane>
